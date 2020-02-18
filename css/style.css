@@ -1,0 +1,95 @@
+body{
+
+}
+header{padding: 10px 0;}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav{
+	flex-basis: 80%;
+	max-width: 80%;
+}
+nav ul{
+display: flex;
+margin: 0;
+padding: 0;
+justify-content: flex-end;
+}
+nav ul li{
+	list-style-type: none;
+
+}
+nav ul li a{
+	color: #000;
+	font-size: 23px;
+	text-decoration: none;
+	padding: 12px;
+	display: block;
+}
+.logo{
+	flex-basis: 20%;
+    max-width: 20%;
+
+}
+section{
+	padding-top: 290px;
+	padding-bottom: 290px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+}
+.section-one{
+	background-image: url(../images/woman-collection.jpg);
+	padding-top: 300px;
+	padding-bottom: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: top;
+}
+.section-two{
+	background-image: url(../images/kid-collection.jpg);
+}
+.section-three{
+	background-image: url(../images/grocery-collection.jpg);
+}
+.section-four{
+	background-image: url(../images/electronic-collection.jpg);
+}
+.section-five{
+	background-image: url(../images/men-collection.jpg);
+}
+h1{
+    color:#ca2115;
+    margin: auto;
+    font-size: 59px;
+    max-width: 599px;
+    padding: 12px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
